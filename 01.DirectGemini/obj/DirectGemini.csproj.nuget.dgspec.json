@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mfv8nnm\\Documents\\Learning\\Projects\\GenAiLearningPath\\01.DirectGemini\\DirectGemini.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mfv8nnm\\Documents\\Learning\\Projects\\GenAiLearningPath\\01.DirectGemini\\DirectGemini.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mfv8nnm\\Documents\\Learning\\Projects\\GenAiLearningPath\\01.DirectGemini\\DirectGemini.csproj",
+        "projectName": "DirectGemini",
+        "projectPath": "C:\\Users\\mfv8nnm\\Documents\\Learning\\Projects\\GenAiLearningPath\\01.DirectGemini\\DirectGemini.csproj",
+        "packagesPath": "C:\\Users\\mfv8nnm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mfv8nnm\\Documents\\Learning\\Projects\\GenAiLearningPath\\01.DirectGemini\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mfv8nnm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://lucius.ups.com/artifactory/api/nuget/fms-nuget-prod-virtual/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.GenAI": {
+              "target": "Package",
+              "version": "[1.17.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Google.GenAI": "1.17.0",
+            "Microsoft.Extensions.AI": "10.9.0",
+            "Npgsql": "10.0.3",
+            "Pgvector": "0.3.2"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
