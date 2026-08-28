@@ -97,6 +97,8 @@ Then `JsonSerializer.Deserialize<AnalysisResult>` into a record.
 
 **Remember:** the grounding instruction ("use only the context, else say so") is the anti-hallucination guardrail — it appears in every later project.
 
+📐 **See [`COSINE-SIMILARITY-DEEP-DIVE.md`](COSINE-SIMILARITY-DEEP-DIVE.md)** for the full geometry behind `VectorMath.CosineSimilarity` and pgvector's `<=>` operator, worked by hand with graphs.
+
 ---
 
 ### 04 · AddedVectorToRag — Abstraction, not new capability

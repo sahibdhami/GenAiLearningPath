@@ -174,6 +174,8 @@ cos  = 0.0450 / 0.91999 = 0.04891
 
 > **Observation:** the distractor **C6 ranks 2nd**, while the genuinely useful **C5 ranks 4th**. Pure vector search got the *shape* of the question right and the *facts* wrong. This is precisely the gap the next two stages close.
 
+📐 For the full geometry behind these numbers — angles, unit vectors, scale invariance, cosine vs Euclidean, and graphs — see [`../COSINE-SIMILARITY-DEEP-DIVE.md`](../COSINE-SIMILARITY-DEEP-DIVE.md).
+
 **Remember:** the HNSW index makes this **approximate**. On six rows it is exact; on six million it may skip a true neighbour. Over-fetching (`topK = 20`) is partly insurance against that.
 
 ---
